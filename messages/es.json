@@ -1,0 +1,136 @@
+{
+  "Navbar": {
+    "brand": "FabxDev",
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "toggleMenu": "Alternar menú"
+  },
+  "HeroSection": {
+    "badge": "Desarrollador de Software",
+    "heading": "Uniendo {highlight} con Tecnología",
+    "highlight": "Ideas",
+    "subtitle": "Construyendo aplicaciones web modernas, responsivas y de alto rendimiento con un enfoque en la experiencia de usuario y código limpio.",
+    "downloadCvEn": "Descargar CV (EN)",
+    "downloadCvEs": "Descargar CV (ES)",
+    "contactMe": "Contáctame",
+    "experience": "2+ Años de Experiencia",
+    "degree": "Grado en Ingeniería de Software"
+  },
+  "AboutSection": {
+    "title": "Sobre mí",
+    "heading": "Desarrollador de software profesional con pasión por crear soluciones elegantes",
+    "subtitle1": "Me especializo en construir aplicaciones web modernas utilizando tecnologías de vanguardia. Con más de 2 años de experiencia en la industria, he desarrollado un ojo crítico para los detalles y un compromiso con escribir código limpio, eficiente y mantenible.",
+    "subtitle2": "Mi enfoque combina la experiencia técnica con la resolución creativa de problemas para entregar soluciones que no solo cumplen, sino que superan las expectativas de los clientes. Creo en el aprendizaje continuo y en mantenerme al día con las últimas tendencias y mejores prácticas en desarrollo de software.",
+    "keySkillsTitle": "Habilidades clave",
+    "stats": {
+      "yearsExperience": "Años de experiencia",
+      "projectsCompleted": "Proyectos completados",
+      "happyClients": "Clientes satisfechos",
+      "techStacks": "Tecnologías"
+    },
+    "overlayText": "Convirtiendo ideas en realidad"
+  },
+  "ServicesSection": {
+    "title": "Mis Servicios",
+    "subtitle": "Ofrezco un conjunto completo de servicios para dar vida a tus ideas digitales. Desde el concepto hasta el despliegue, estoy contigo en cada paso.",
+    "downloadQuoteEn": "Descargar Cotización (EN)",
+    "downloadQuoteEs": "Descargar Cotización (ES)",
+    "tabs": {
+      "web": "Desarrollo Web",
+      "desktop": "Desarrollo de Escritorio",
+      "backend": "Desarrollo Backend"
+    },
+    "included": "Lo que incluye",
+    "services": {
+      "web": {
+        "description": "Creación de sitios y aplicaciones web receptivas y de alto rendimiento.",
+        "features": [
+          "Desarrollo de sitios a medida",
+          "Aplicaciones web a medida",
+          "Sitios SaaS",
+          "Gestión de dominio y hosting",
+          "Optimización de rendimiento",
+          "Diseño responsivo"
+        ]
+      },
+      "desktop": {
+        "description": "Desarrollo de potentes aplicaciones de escritorio con Electron y Tauri.",
+        "features": [
+          "Apps de escritorio multiplataforma",
+          "Rendimiento nativo",
+          "Integración con características del sistema",
+          "Funcionalidad offline",
+          "Publicación en tiendas de apps",
+          "Interfaces fáciles de usar"
+        ]
+      },
+      "backend": {
+        "description": "Desarrollo de aplicaciones y APIs robustas del lado del servidor.",
+        "features": [
+          "APIs RESTful",
+          "Diseño y optimización de bases de datos",
+          "Configuración de servidores",
+          "Autenticación y autorización",
+          "Arquitectura de microservicios",
+          "Infraestructura en la nube"
+        ]
+      }
+    }
+  },
+  "ProjectsSection": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Explora una selección de mis proyectos recientes. Cada uno demuestra mi forma de resolver problemas e implementar soluciones técnicas.",
+    "liveDemo": "Ver Demo",
+    "code": "Código",
+    "viewMore": "Ver más proyectos"
+  },
+  "ContactSection": {
+    "getInTouchTitle": "Ponte en Contacto",
+    "getInTouchSubtitle": "¿Tienes un proyecto en mente o quieres hablar de una posible colaboración? ¡Me encantaría saber de ti! Completa el formulario y te responderé lo antes posible.",
+    "contactInfoTitle": "Información de Contacto",
+    "emailLabel": "Correo electrónico",
+    "phoneLabel": "Teléfono",
+    "locationLabel": "Ubicación",
+    "availableForTitle": "Disponible Para",
+    "availableFor": [
+      "Puestos de tiempo completo",
+      "Contratos a tiempo parcial",
+      "Proyectos freelance",
+      "Servicios de consultoría"
+    ],
+    "formTitle": "Envíame un Mensaje",
+    "nameLabel": "Nombre",
+    "subjectLabel": "Asunto",
+    "messageLabel": "Mensaje",
+    "submit": "Enviar Mensaje",
+    "sending": "Enviando…",
+    "successTitle": "¡Mensaje Enviado!",
+    "successDescription": "Gracias por escribir. Me pondré en contacto contigo pronto.",
+    "sendAnother": "Enviar Otro Mensaje",
+    "toastSuccessTitle": "¡Mensaje Enviado!",
+    "toastSuccessDescription": "Me pondré en contacto contigo pronto.",
+    "toastErrorTitle": "Error al enviar",
+    "toastErrorDescription": "Por favor, inténtalo de nuevo más tarde."
+  },
+  "Footer": {
+    "brand": "FabxDev",
+    "description": "Creando experiencias digitales increíbles con código limpio y eficiente.",
+    "navigation": "Navegación",
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "social": "Social",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Correo",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyright": "© {year} FabxDev. Todos los derechos reservados."
+  }
+}

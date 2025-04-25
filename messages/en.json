@@ -1,0 +1,136 @@
+{
+  "Navbar": {
+    "brand": "FabxDev",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "toggleMenu": "Toggle menu"
+  },
+  "HeroSection": {
+    "badge": "Software Developer",
+    "heading": "Bridging {highlight} with Technology",
+    "highlight": "Ideas",
+    "subtitle": "Building modern, responsive, and performant web applications with a focus on user experience and clean code.",
+    "downloadCvEn": "Download CV (EN)",
+    "downloadCvEs": "Download CV (ES)",
+    "contactMe": "Contact Me",
+    "experience": "2+ Years Experience",
+    "degree": "Software Engineering Degree"
+  },
+  "AboutSection": {
+    "title": "About Me",
+    "heading": "Professional Software Developer with a passion for creating elegant solutions",
+    "subtitle1": "I specialize in building modern web applications using cutting-edge technologies. With over 2 years of experience in the industry, I've developed a keen eye for detail and a commitment to writing clean, efficient, and maintainable code.",
+    "subtitle2": "My approach combines technical expertise with creative problem-solving to deliver solutions that not only meet but exceed client expectations. I believe in continuous learning and staying up-to-date with the latest trends and best practices in software development.",
+    "keySkillsTitle": "Key Skills",
+    "stats": {
+      "yearsExperience": "Years Experience",
+      "projectsCompleted": "Projects Completed",
+      "happyClients": "Happy Clients",
+      "techStacks": "Tech Stacks"
+    },
+    "overlayText": "Turning ideas into reality"
+  },
+  "ServicesSection": {
+    "title": "My Services",
+    "subtitle": "I offer a comprehensive range of services to help bring your digital ideas to life. From concept to deployment, I've got you covered.",
+    "downloadQuoteEn": "Download Quote (EN)",
+    "downloadQuoteEs": "Download Quote (ES)",
+    "tabs": {
+      "web": "Web Development",
+      "desktop": "Desktop Development",
+      "backend": "Backend Development"
+    },
+    "included": "What's Included",
+    "services": {
+      "web": {
+        "description": "Building responsive, high-performance websites and web applications.",
+        "features": [
+          "Custom website development",
+          "Web application development",
+          "SaaS websites",
+          "Domain and hosting management",
+          "Performance optimization",
+          "Responsive design"
+        ]
+      },
+      "desktop": {
+        "description": "Building powerful desktop applications with Electron and Tauri.",
+        "features": [
+          "Cross-platform desktop apps",
+          "Native-like performance",
+          "Integration with system features",
+          "Offline capabilities",
+          "App store deployment",
+          "User-friendly interfaces"
+        ]
+      },
+      "backend": {
+        "description": "Developing robust server-side applications and APIs.",
+        "features": [
+          "RESTful API development",
+          "Database design and optimization",
+          "Server configuration",
+          "Authentication and authorization",
+          "Microservices architecture",
+          "Cloud infrastructure setup"
+        ]
+      }
+    }
+  },
+  "ProjectsSection": {
+    "title": "Featured Projects",
+    "subtitle": "Explore a selection of my recent projects. Each project demonstrates my approach to problem-solving and technical implementation.",
+    "liveDemo": "Live Demo",
+    "code": "Code",
+    "viewMore": "View More Projects"
+  },
+  "ContactSection": {
+    "getInTouchTitle": "Get In Touch",
+    "getInTouchSubtitle": "Have a project in mind or want to discuss a potential collaboration? I'd love to hear from you! Fill out the form below and I'll get back to you as soon as possible.",
+    "contactInfoTitle": "Contact Information",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "locationLabel": "Location",
+    "availableForTitle": "Available For",
+    "availableFor": [
+      "Full-time positions",
+      "Part-time contract work",
+      "Freelance projects",
+      "Consulting services"
+    ],
+    "formTitle": "Send Me a Message",
+    "nameLabel": "Name",
+    "subjectLabel": "Subject",
+    "messageLabel": "Message",
+    "submit": "Send Message",
+    "sending": "Sending…",
+    "successTitle": "Message Sent!",
+    "successDescription": "Thank you for reaching out. I'll get back to you as soon as possible.",
+    "sendAnother": "Send Another Message",
+    "toastSuccessTitle": "Message Sent!",
+    "toastSuccessDescription": "I'll get back to you as soon as possible.",
+    "toastErrorTitle": "Error sending message",
+    "toastErrorDescription": "Please try again later."
+  },
+  "Footer": {
+    "brand": "FabxDev",
+    "description": "Building amazing digital experiences with clean, efficient code.",
+    "navigation": "Navigation",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "social": "Social",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© {year} FabxDev. All rights reserved."
+  }
+}

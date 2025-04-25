@@ -6,6 +6,7 @@ import { ArrowRight, Code, CircleUser, GraduationCap } from "lucide-react";
 import { cn } from "@/root/lib/utils";
 import image from "@/assets/FabxDev_isotipo.png";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function HeroSection() {
   const t = useTranslations("HeroSection");
@@ -106,7 +107,7 @@ export default function HeroSection() {
             <div className="relative aspect-square max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full animate-pulse-soft" />
               <div className="absolute inset-4 bg-card rounded-full flex items-center justify-center overflow-hidden">
-                <img
+                <Image
                   src={image.src}
                   alt="Developer at work"
                   className="w-full h-full object-cover"

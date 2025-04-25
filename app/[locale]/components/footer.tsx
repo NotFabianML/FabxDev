@@ -31,14 +31,14 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2">
               {["home", "about", "services", "projects", "contact"].map((key) => (
-                <li key={key}>
-                  <Link
-                    href={`#${key}`}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    {t(key as any)}
-                  </Link>
-                </li>
+              <li key={key}>
+                <Link
+                href={`#${key}`}
+                className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
+                {t(key as "home" | "about" | "services" | "projects" | "contact")}
+                </Link>
+              </li>
               ))}
             </ul>
           </div>

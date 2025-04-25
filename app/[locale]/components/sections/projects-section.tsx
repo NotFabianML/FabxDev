@@ -20,6 +20,7 @@ import ToolboxImg from "@/assets/toolbox.png";
 import SpotifyWrappedImg from "@/assets/spotifywrapped.png";
 import ChronogameImg from "@/assets/chronogame.png";
 import UnvstImg from "@/assets/unvstplanner.png";
+import Image from "next/image";
 
 export default function ProjectsSection() {
   const t = useTranslations("ProjectsSection");
@@ -108,7 +109,7 @@ export default function ProjectsSection() {
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
                 <div className="relative aspect-video overflow-hidden">
-                  <img
+                  <Image
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -174,7 +175,7 @@ export default function ProjectsSection() {
                     style={{ transitionDelay: `${index * 150}ms` }}
                   >
                     <div className="relative aspect-video overflow-hidden">
-                      <img
+                      <Image
                         src={project.image}
                         alt={project.title}
                         className="w-full h-full object-cover"

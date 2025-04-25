@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { useInView } from "framer-motion";
 import { Shield, Zap, Cpu, Code2 } from "lucide-react";
 import { cn } from "@/root/lib/utils";
 import image from "@/assets/pc.png";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function AboutSection() {
   const t = useTranslations("AboutSection");
@@ -91,7 +92,7 @@ export default function AboutSection() {
             )}
           >
             <div className="relative rounded-lg overflow-hidden aspect-[4/3]">
-              <img
+              <Image
                 src={image.src}
                 alt={t("overlayText")}
                 className="w-full h-full object-cover"

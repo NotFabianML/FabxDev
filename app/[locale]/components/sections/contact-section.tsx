@@ -96,7 +96,7 @@ export default function ContactSection() {
 
       setIsSubmitted(true);
       form.reset();
-    } catch (error: any) {
+    } catch (error) {
       console.error("EmailJS error:", error);
       toast({
         title: t("toastErrorTitle"),

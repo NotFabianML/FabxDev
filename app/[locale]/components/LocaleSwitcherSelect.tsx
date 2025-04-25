@@ -8,7 +8,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Locale, routing, usePathname, useRouter } from "@/root/i18n/routing";
-import { useParams } from "next/navigation";
+// import { useParams } from "next/navigation";
 import { ReactNode } from "react";
 
 type Props = {
@@ -42,7 +42,7 @@ export default function LocaleSwitcherSelect({ defaultValue, label }: Props) {
         <SelectValue />
       </SelectTrigger>
       <SelectContent>
-        {routing.locales.map((locale: any) => (
+        {routing.locales.map((locale: Locale) => (
           <SelectItem key={locale} value={locale}>
             {locale.toUpperCase()}
           </SelectItem>
